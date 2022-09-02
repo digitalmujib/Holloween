@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Holloween/static/css/main.e0435ea1.css",
+    "main.js": "/Holloween/static/js/main.5848aeee.js",
+    "static/media/arrival-3.gif": "/Holloween/static/media/arrival-3.03a6231fd8fb633ccaaa.gif",
+    "static/media/arrival-6.gif": "/Holloween/static/media/arrival-6.e5371c8522a2f166bbff.gif",
+    "static/media/home-slider-2.jpg": "/Holloween/static/media/home-slider-2.547ecbd4b3fb6c8e73f6.jpg",
+    "static/media/home-slider-3.jpg": "/Holloween/static/media/home-slider-3.1390322f811924498600.jpg",
+    "static/media/blog-3.jpg": "/Holloween/static/media/blog-3.3926a0cf45009f3652a1.jpg",
+    "static/media/blog-2.jpg": "/Holloween/static/media/blog-2.338fb408c3e574ec1460.jpg",
+    "static/media/blog-1.jpg": "/Holloween/static/media/blog-1.8af7675e505fa0eb526b.jpg",
+    "static/media/home-slider-1.jpg": "/Holloween/static/media/home-slider-1.85da6dc38639158bc26a.jpg",
+    "static/media/arrival-2.jpg": "/Holloween/static/media/arrival-2.6ffb5628f8e64c951dc5.jpg",
+    "static/media/about-bt.jpg": "/Holloween/static/media/about-bt.93cc5f027b1763c00835.jpg",
+    "static/media/product-3.jpg": "/Holloween/static/media/product-3.adf06c4dd37eca0b9be0.jpg",
+    "static/media/arrival-1.jpg": "/Holloween/static/media/arrival-1.8d2b4235796bc81390ba.jpg",
+    "static/media/product-4.jpg": "/Holloween/static/media/product-4.2f3bbfecbba3f8ed51dc.jpg",
+    "static/media/product-5.jpg": "/Holloween/static/media/product-5.df9766de9c5a37cda5d1.jpg",
+    "static/media/arrival-4.jpg": "/Holloween/static/media/arrival-4.f674fc51f1605905514b.jpg",
+    "static/media/product-1.jpg": "/Holloween/static/media/product-1.d4d13e323ce1aa0c4c73.jpg",
+    "static/media/arrival-5.jpg": "/Holloween/static/media/arrival-5.86bfa76a46231ed102fd.jpg",
+    "index.html": "/Holloween/index.html",
+    "main.e0435ea1.css.map": "/Holloween/static/css/main.e0435ea1.css.map",
+    "main.5848aeee.js.map": "/Holloween/static/js/main.5848aeee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0435ea1.css",
+    "static/js/main.5848aeee.js"
+  ]
+}
