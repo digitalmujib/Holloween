@@ -1,0 +1,165 @@
+:root {
+    --main-color: #ef7819;
+    --black: #141215;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s;
+}
+
+.navbar.active {
+    background-color: #222;
+    padding: 2rem 9%;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.logo i {
+    padding-right: .5rem;
+    color: var(--main-color);
+    animation: floating 3s linear infinite;
+}
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+
+    50% {
+        transform: translateY(-1rem);
+    }
+}
+
+.nav-links a {
+    font-size: 1.7rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.nav-links .active,
+.nav-links a:hover {
+    color: var(--main-color);
+}
+
+.icons a,
+.icons div {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.icons a:hover,
+.icons div:hover {
+    color: var(--main-color);
+}
+
+.menu-btn {
+    display: none;
+}
+
+.search-form {
+    position: absolute;
+    top: 114%;
+    right: -105%;
+    background-color: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.search-form.active {
+    right: 2rem;
+    opacity: 1;
+    transition: .4s linear;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 0 1.5rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.search-form label {
+    font-size: 2.5rem;
+    padding-right: 1rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.search-form label:hover {
+    color: var(--main-color);
+}
+
+
+/* media query */
+
+@media (max-width: 990px) {
+    html {
+        font-size: 55%;
+    }
+
+    .navbar {
+        padding: 2rem;
+    }
+
+    .navbar.active {
+        background-color: #222;
+        padding: 2rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: inline-block;
+    }
+
+    .navbar .nav-links {
+        position: absolute;
+        top: 99%;
+        right: 0%;
+        left: 0;
+        background-color: #222;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .navbar .nav-links.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+
+    .search-form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}

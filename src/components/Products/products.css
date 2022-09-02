@@ -1,0 +1,101 @@
+:root {
+    --main-color: #ef7819;
+    --black: #141215;
+}
+
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.heading span {
+    color: var(--main-color);
+}
+
+.products .products-slider .box {
+    position: relative;
+    width: 35rem;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.products .products-slider .pr-boxbox:hover .icons{
+    right: 3rem;
+}
+
+.pr-box .icons {
+    position: absolute;
+    right: -5rem;
+    z-index: 1;
+}
+
+.pr-box .icons a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color:#141215;
+    background-color: #fff;
+    margin-top: 1rem;
+    display: block;
+}
+
+.pr-box:hover .icons {
+    right: 1rem;
+}
+
+.pr-box .content {
+    padding-top: 1rem;
+}
+
+.productHeading {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+.pr-box .content .price {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.pr-box .content .price span {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--main-color);
+    text-decoration: line-through;
+}
+
+.pr-box .icons a:hover {
+    background-color: #ef7819;
+    color: #fff;
+}
+
+.pr-box {
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+   width: 35rem;
+}
+
+.pr-box .image {
+    height: 40rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pr-box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image img:hover {
+    scale: 1.2;
+}

@@ -1,0 +1,62 @@
+:root {
+    --main-color: #ef7819;
+    --black: #141215;
+}
+
+.blogs-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.bg-box .image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bg-box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs-box-container .content {
+    padding: 2rem;
+    background-color: #222;
+}
+
+.blogs-box-container .bg-box h3 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    line-height: 1.8;
+}
+
+.blogs-box-container .bg-box p {
+    font-size: 1.5rem;
+    color:#fff;
+    line-height: 2;
+}
+
+.bg-box .content .icons {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 0.1rem solid #fff3 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-box .content .icons a {
+    font-size: 1.4rem;
+    color: var(--main-color);
+}
+
+
+.bg-box .content .icons a:hover {
+    color: #fff;
+}
+
+.bg-box .content .icons i {
+    padding-right: 0.4rem;
+}

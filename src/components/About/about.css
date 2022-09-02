@@ -1,0 +1,29 @@
+:root {
+    --main-color: #ef7819;
+    --black: #141215;
+}
+
+.about {
+    background-image: url(../../assets/images/about-bt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 30px 0;
+}
+
+.about .content {
+    padding: 13rem 0;
+    max-width: 50rem;
+}
+
+.about .content h3 {
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.about .content p {
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 2;
+    padding: 1rem 0;
+}
